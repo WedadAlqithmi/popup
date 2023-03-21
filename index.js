@@ -6,7 +6,7 @@ const submitSubscriptionForm = () => {
         <form class="subscriptionform">
             <div class="close"></div>
             <div>
-                <p> اشترك معنا </p>
+                <p>احصل على خصم 10٪ لطلبك الأول من التطبيق</p>
             </div>
             <input name="name" type="text" placeholder="الاسم" />
             <input name="email" type="email" placeholder="بريدك الالكتروني" />
@@ -38,7 +38,6 @@ const submitSubscriptionForm = () => {
     form_btn.onclick = function () {
         sendForm()
     }
-
 
     window.onload = function () {
         setTimeout(function () {
