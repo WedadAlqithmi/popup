@@ -50,7 +50,7 @@ const submitSubscriptionForm = () => {
     const sendForm = () => {
         var value = form_input.value;
         console.log("Input value: " + value);
-        msg.innerText = `تم الإرسال`
+        form_msg.innerText = `تم الإرسال`
         setTimeout(() => {
             form_msg.innerText = ``
             form_input.value = ``
